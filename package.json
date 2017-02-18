@@ -15,10 +15,6 @@
   },
   "author": "Hassan Ali <helfi92@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mozilla-neutrino/node-starter/issues"
-  },
-  "homepage": "https://github.com/mozilla-neutrino/node-starter#readme",
   "devDependencies": {
     "neutrino": "^4.0.1",
     "neutrino-preset-airbnb-base": "^4.0.1",
