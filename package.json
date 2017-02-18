@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "description": "Get started with Node!",
+  "main": "index.js",
+  "config": {
+    "presets": [
+      "neutrino-preset-airbnb-base",
+      "neutrino-preset-node"
+    ]
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "serve": "yarn start && node build"
+  },
+  "author": "Hassan Ali <helfi92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mozilla-neutrino/node-starter/issues"
+  },
+  "homepage": "https://github.com/mozilla-neutrino/node-starter#readme",
+  "devDependencies": {
+    "neutrino": "^4.0.1",
+    "neutrino-preset-airbnb-base": "^4.0.1",
+    "neutrino-preset-node": "^4.0.1"
+  }
+}
