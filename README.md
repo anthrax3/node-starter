@@ -96,7 +96,7 @@ By default the Node.js preset creates a single **main** `index` entry point to y
 
 ### Vendoring
 
-`node-starter` uses `neutrino-preset-node`. This preset automatically vendors all external dependencies into a separate chunk based on their inclusion in your `package.json`. No extra work is required to make this work.
+`node-starter` uses `neutrino-preset-node`. The latter automatically vendors all external dependencies into a separate chunk based on their inclusion in your `package.json`. No extra work is required to make this work.
 
 ### Rules
 
