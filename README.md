@@ -6,7 +6,7 @@ Create Node apps with zero initial configuration. `node-starter` is built using 
 
 - Zero upfront configuration necessary to start developing and building a Node.js project
 - Extends from [neutrino-preset-node](https://neutrino.js.org/presets/neutrino-preset-node/)
-  - Modern Babel compilation supporting ES modules, Node.js 6.9+, and async functions
+  - Modern Babel compilation supporting ES modules, Node.js 6.9+, async functions, and dynamic imports
   - Auto-wired sourcemaps
   - Hot Module Replacement with source-watching during development
   - Chunking of external dependencies apart from application code
