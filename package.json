@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "neutrino start",
-    "build": "neutrino build",
-    "serve": "yarn start && node build"
+    "build": "neutrino build"
   },
   "author": "Hassan Ali <helfi92@gmail.com>",
   "license": "MIT",
