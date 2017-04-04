@@ -1,8 +1,11 @@
 import { createServer } from 'http';
+import app from './app';
 
 const port = process.env.PORT || 3000;
 
-createServer((request, response) => {
-  response.write('<div style="padding: 20px"><h1>Neutrino</h1><p>Welcome to Node</p></div>');
-})
+createServer((request, response) => response.end(app()))
 .listen(port, () => console.log(`Running on :${port}`));
+
+if (module.hot) {
+  module.hot.accept('./app');
+}
